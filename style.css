@@ -4,12 +4,13 @@ body{
   align-items: center;
   height: 100vh;
    background-color:  rgb(249, 238, 226);
+   overflow-y: hidden;
 }
 .main{
   background-color: rgb(118, 252, 182);
   box-shadow: 6px -6px 0px rgb(101, 223, 160);
   border-radius: 30px;
-  padding: 80px;
+  padding: 70px;
 }
 .box{
   background-color: rgb(249, 238, 226);
@@ -27,3 +28,14 @@ span{
   border-style: groove;
 
 }
+h1{
+  font-family: "Big Shoulders Stencil", sans-serif;
+  font-size: 80px;
+  background-clip: text;
+  text-shadow: 4px -4px 0px rgba(39, 38, 38, 0.237);
+  color: transparent;
+  background-image: url(https://uploads.onecompiler.io/444u4zhgq/1784034991191/back%201.jpg);
+  text-align: center;
+  z-index: 1;
+}
+
